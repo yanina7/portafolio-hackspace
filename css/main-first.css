@@ -206,6 +206,20 @@ a.btn-view{
     
 }
 
+.logo-text {
+	font-family: 'Rajdhani', 'Sumana', sans-serif;
+	font-weight: bold;
+	font-size: 5rem;
+	letter-spacing: 0.2em;
+	color: #e91e63;
+	text-shadow: 0 2px 8px rgba(233,30,99,0.3), 0 0px 0 #fff;
+	background: linear-gradient(90deg, #e91e63 60%, #fff 100%);
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+	text-transform: uppercase;
+}
+
 .text-justify{
 	text-align: justify;
 }
