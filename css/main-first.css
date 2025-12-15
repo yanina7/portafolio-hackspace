@@ -354,3 +354,14 @@ a.waves-effect.waves-light.btn.btn-certificate {
   text-transform: uppercase !important;
 }
 
+.btn.btn-certificate {
+  border: none !important; 
+  border-radius: 2px !important;
+  display: inline-block !important;
+  height: 25px !important;
+  line-height: 25px !important;
+  outline: 0 !important;
+  padding: 0 1rem !important;
+  text-transform: uppercase !important;
+}
+
