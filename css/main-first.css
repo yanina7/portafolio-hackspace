@@ -365,12 +365,8 @@ a.waves-effect.waves-light.btn.btn-certificate {
   text-transform: uppercase !important;
 }
 
-.pink-text{
-	color: #E91E63;
-}
-
 .fa-skills{
-   padding-left:2.5rem;
-   padding-right:2.5rem;	
+   padding-left:2.5rem !important;
+   padding-right:2.5rem !important;
 }
 
