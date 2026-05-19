@@ -231,5 +231,9 @@ h4, .font, h3, h5 {
     font-weight: 400;  
     transition: all 100ms ease;
   }
+
+  .card-contentsize{
+    font-size: 15px;
+  }
   
 }
