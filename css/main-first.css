@@ -373,3 +373,10 @@ a.waves-effect.waves-light.btn.btn-certificate {
 .card-contentsize{
     font-size: 15px;
 }
+
+.card .card-title,
+body .card .card-title,
+html body .card .card-title {
+    font-size: 5px !important;
+    font-weight: 300 !important;
+}
