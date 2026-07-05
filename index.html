@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="demo_assets/demo.css" />
     <link rel="stylesheet" href="HoverEx files/hoverex-all.css" />
     <link rel="stylesheet" href="template_assets/templates.css" />
-
 	</head>
  <header>
     <div class="navbar-fixed">
@@ -25,8 +24,10 @@
         <a href="#" data-activates="slide-out" class="btn-floating btn-large waves-effect waves-light white button-collapse"><i class="material-icons menu-list">menu</i></a>         
         <ul id="nav-mobile" class="right hide-on-med-and-down">
          <li><a href="#about-me"><i class="fas fa-home menu"></i>ABOUT ME</a></li>
-         <li><a href="#portafolio"><i class="fas fa-briefcase menu "></i>PORTFOLIO</a></li>
+         <li><a href="#portafolio"><i class="fas fa-briefcase menu"></i>PORTFOLIO</a></li>
+         <li><a href="#skills"><i class="fas fa-cog fa-fw"></i>SKILLS</a></li>
          <li><a href="#contac"><i class="fas fa-envelope menu"></i>CONTACT</a></li>
+         <li><a href="#profile"><i class="fa fa-user fa-fw"></i>PROFILE</a></li>
         </ul>
        </div>
      </nav>  
@@ -45,6 +46,7 @@
         </div></li>
         <li><div class="divider"></div></li>
         <li><a href="https://t.me/yanni_mercado" target="_blank"><span id="span1" class="name">@Yanina_Mercado</span></a></li>
+
         <li><div class="divider"></div></li>
         <li><a href="#about-me"><span class="material-icons">account_box</span><span class="list-responsive">About me</span></a></li>
         <li><div class="divider"></div></li>
@@ -60,13 +62,14 @@
 <section>
   <div class="row">
      <div class="col s12 col m12 slide-main">
-      <div class="overlay">
-		<a href="https://t.me/yanni_mercado" target="_blank">  
-          <h1 class="logo-text center white-text">@Yanina_Mercado</h1>
-		</a>			
-      </div>
+     <div class="overlay">
+		 <a href="https://t.me/yanni_mercado" target="_blank">  
+        <h1 class="logo-text center white-text">@Yanina_Mercado</h1>
+		 </a>
+     <a class="button-download" href="cv-pdf/AWSCertifiedCloudPractitioner.pdf" download="Yanina_Mercado_CV">Download CV</a>   			
+     </div>
   </div>
-</section> 
+</section>
  
 
  </div>     
@@ -87,7 +90,7 @@
       <div class="container-fluid">
          <div class="row">
            <div class="col s12 m12 center">
-            <h2 class="about-text black-text"></h2>           
+            <h2 class="about-text blue-text typed-2"></h2>
            </div>
          </div>  
         <!--fin de title-->
@@ -107,11 +110,15 @@
                   <div class="col l2 m2 s2">
                     <i class="fa fa-laptop fa-2x greytwo-text" aria-hidden="true"></i>
                   </div>
-                  <div class="col l10 m10 s10">
-                    <h5 class="grey-text">Advanced Tech Skills</h5>
-                    <p class="grey-text">° Pyspark</p>
-                    <p class="grey-text">° Scala-Spark</p>
-                    <p class="grey-text">° Pl/Sql/Oracle/Teradata</p>
+                  <div  class="col l10 m10 s10">
+                    <div class="text-head">
+                      <p class="grey-text typed">° AWS S3/Athena/Glue</p>
+                      <p class="grey-text typed1">° AWS Sagemaker/Quicksight</p>
+                      <p class="grey-text typed">° Advanced Pyspark</p>
+                      <p class="grey-text typed">° Advanced Scala-Spark</p>
+                      <p class="grey-text typed">° Pl/Sql/Oracle/Teradata</p>
+                      <p class="grey-text typed">° Java/Scala/Python/JS</p>
+                    </div>
                   </div>
                 </div>
                 <br>  
@@ -121,20 +128,14 @@
                   </div>
                   <div class="col l10 m10 s10">
                     <h5 class="grey-text">Lima-Perú</h5>
-                    <p class="grey-text">San Martin de Porres></p>
+                    <p class="grey-text">San Martin de Porres</p>
 					<p class="grey-text">reference UNI</p>
                   </div>
                 </div>
                 <div class="col l12 m12 s12">
                   <div class="col l2 m2 s2">
-                    <i class="fa fa-mobile fa-2x greytwo-text" aria-hidden="true"></i>
                   </div>
                   <div class="col l10 m10 s10">
-				   <a href="https://t.me/yanni_mercado" target="_blank" class="text-white" >
-                    <h5 class="grey-text"> < Hi World! ></h5>
-                    <p class="grey-text">967 081 926</p>
-                   <!-- <p class="white-text">Lunes - Sábado, 00:00-24:00</p>-->
-				   </a>	   
                   </div>
                 </div>
               </div>
@@ -246,7 +247,7 @@
        <div class="row">
         <div class="push-m1 col m10 s12 page a_slow elasticInLeft" >    
           <!--template 6-->
-          <div class="row">
+         <div class="row">
            <div class="col s12 m12 center">
             <h2 class="about-text black-text pink-text">Introduction Code</h2>           
            </div>
@@ -294,7 +295,7 @@
         </div>
       </div> 
     </section>
-    <section class="section-tools">
+    <section id="skills" class="section-tools">
           <div class="row center">
             <div class="push-m3 col s12 m6">
               <h3 class="about-text">Skills</h3>
@@ -374,17 +375,15 @@
              </div>
            </div>  
         
-           <div class="row center-align center-align">
-             <div class="col s12 m12">
+          <div class="row center-align center-align">
+
+           <div class="push-m3 col s12 m10">
+            <div class="col s12 m2">
                <a href="https://t.me/yanni_mercado" target="_blank" class="text-white" >
                 <i class="fas fa-mobile-alt fa-4x"></i>
-				<i class="tiny material-icons">send</i>
-               <p>(+51) 967081926</p>
+               <p>967081926</p>
               </a>
-            </div>
-           </div>
-          <div class="row center-align center-align">
-           <div class="push-m3 col s12 m10">
+            </div> 
             <div class="col s12 m2">
               <a href="https://github.com/yanina7" target="_blank">
                 <i class="fab fa-github-square fa-4x"></i>
@@ -392,9 +391,9 @@
               </a>
             </div>
             <div class="col s12 m2 center-align">
-              <a href="https://www.linkedin.com/in/yaninamercado/" target="_blank">
-                <i class="fab fa-linkedin fa-4x"></i>
-                <p class="">yaninamercado</p>
+              <a href="https://www.facebook.com/MRMHEY" target="_blank">
+                <i class="fab fa-facebook fa-4x"></i>
+                <p class="">yanimercado</p>
               </a>
             </div>
             <div class="col s12 m2 center-align">
@@ -410,18 +409,29 @@
    
     <!--footer-->
     <footer class="footer">
-      <div class="row text-footer">
+      <div id="profile" class="row text-footer">
         <div class="col s12 m4">
-          <h5>Mucho más</h5>
+          <h5>.</h5>
           <div class="text-footer-about">
-            <p class="text-justify">He estado brindando soluciones por el ámbito big data, interesada en la innovación digital de nuevas tecnologías así como apoyarme de distintas comunidades tech: Laboratoria, AWS girl, Google GMD, y Woman in IA</p>
+            <div class="footer-logo">
+            <div class="background-linkedin">
+                <img class="bg" src="assets/images/bg-linkedin.jpg" alt="bacground">
+                <img class="user" src="assets/images/foto-linkedin.jpg" alt="">
+            </div>
+            <div class="informacion-linkedin">
+                <p class="name">Yanina.Mercado</p>
+                <p><span>{</span> Data Engineer <span>}</span></p>
+                <a href="www.linkedin.com/in/ruthcampos">Ver perfil</a>
+                <img src="assets/images/logo-linkedin.png" alt="Logo-linkedin">
+            </div>
+        </div>
           </div>
           <div>
 
           </div>
         </div>
         <div class="col s12 m4">
-          <h5>Habilidades Socioemocionales:</h5>
+          <h5>Skills Socioemotionals:</h5>
           <br>
           <div class="row redes-footer">
         
@@ -460,7 +470,7 @@
           </div>              
         </div>  
         <div class="col s12 m4 images-footer">
-          <h5>Me gusta explorar</h5>
+          <h5>I like explore:</h5>
           <br>
           <div class="row">
             <div class="col s12 m4">
@@ -488,7 +498,7 @@
           <div class="row text-footer-final">
             <div class="col s12 m12 center text-footer-final">
               <br>
-              <a href="#">Copyright © Yanina.Mercado </a>
+              <a href="#">Copyright © YaninaMercado. Todos los derechos reservados.</a>
             </div>
           </div>
 
@@ -522,7 +532,8 @@
   </div>
 </div>
 <!-- -->  
-  
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="js/menu.js"></script>
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		
