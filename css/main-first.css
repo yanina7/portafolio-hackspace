@@ -54,8 +54,10 @@ a i.menu-list {
 	position: absolute;
 	color: #757575 !important;
 }
-nav a.button-collapse {
-	display: block; 
+@media only screen and (max-width: 992px) {
+	nav a.button-collapse {
+		display: block;
+	}
 }
 .photo-menu{
 	width: 45%;
@@ -310,17 +312,18 @@ a.btn-view{
 }
 .text-slider{
     
-    padding-bottom: 20px;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 55px;
+  padding-bottom: 20px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
 
 }
 .about-text{
 	  
-    font-family: "Alfa Slab One";
-    font-size: 30px;
-    line-height: 54.6px;
+  font-family: "Alfa Slab One";
+  font-size: 30px;
+  line-height: 54.6px;
+  margin-left: 12rem;
 }
 .section-tools{
 	background-color: #ECECEC;
@@ -331,9 +334,9 @@ a.btn-view{
 }
 
 footer {
-    padding: 50px 20px;
-    color: #FFF;
-    background-color: #26272A;
+  padding: 50px 20px;
+  color: #FFF;
+  background-color: #26272A;
 }
 
 .slide-main{
@@ -347,11 +350,11 @@ footer {
 	/*background: red;*/
 }
 .overlay {
-    padding-top: 6.35rem;
-    padding-bottom: 10.2rem;
-    /*padding-left: 8rem;*/
-    background: rgba(166, 126, 154, 0.13);
-    font-family: "Roboto", sans-serif;
+  padding-top: 6.35rem;
+  padding-bottom: 10.2rem;
+  /*padding-left: 8rem;*/
+  background: rgba(166, 126, 154, 0.13);
+  font-family: "Roboto", sans-serif;
 
 }
 div h1{
@@ -434,10 +437,13 @@ html body .card .card-title {
         }
         .user{
             width: 30%;
-            height: 105px;
-			margin-top: -45px;        
+            max-width: 105px;
+            aspect-ratio: 1 / 1;
+            height: auto;
+			margin-top: -45px;
             align-self: center;
             border-radius: 50%;
+            object-fit: cover;
         }
     .informacion-linkedin{
         display: flex;
