@@ -193,7 +193,7 @@ a.btn-view{
     color: rgb(255, 255, 255);
     font-weight: 400;
     margin-top: 20px;
-	margin-left: 145px;
+	  margin-left: 245px;
     width: 120px;
     height: 60px;
     text-align: center;
@@ -203,7 +203,7 @@ a.btn-view{
     text-decoration: none;
     padding: 10px 2px;
     background: #2f9bfe;
-	border-style: #ffffff;
+	  border-style: #ffffff;
 }
 
 .navbar-fixed {
