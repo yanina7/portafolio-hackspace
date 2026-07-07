@@ -486,6 +486,22 @@ html body .card .card-title {
         padding-top: 10px;
 		padding-bottom: 10px;
     }
+@media only screen and (max-width: 600px){
+    .skills-footer{
+        margin-top: 2.5rem;
+    }
+    .background-linkedin{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .informacion-linkedin{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .user{
+        max-width: 85px;
+    }
+}
 #whatsapp{
     position: fixed;
     width: 55px;
