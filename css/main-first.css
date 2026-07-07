@@ -416,6 +416,15 @@ a.waves-effect.waves-light.btn.btn-certificate {
     font-size: 15px;
 }
 
+.data-body .card-image{
+    height: 80px;
+    overflow: hidden;
+}
+.data-body .card-image img.activator{
+    height: 80px;
+    width: 100%;
+}
+
 .card .card-title,
 body .card .card-title,
 html body .card .card-title {
@@ -477,4 +486,26 @@ html body .card .card-title {
         padding-top: 10px;
 		padding-bottom: 10px;
     }
+#whatsapp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 25px;
+    left: 25px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    z-index: 1000;
+    transition: transform 0.2s ease-in-out;
+}
+#whatsapp:hover{
+    transform: scale(1.1);
+}
+#whatsapp img{
+    width: 32px;
+    height: 32px;
+}
 /**END**/
