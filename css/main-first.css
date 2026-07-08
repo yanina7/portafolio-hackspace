@@ -502,6 +502,20 @@ html body .card .card-title {
         max-width: 85px;
     }
 }
+
+#portafolio .page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#portafolio .page > .row{
+    flex-basis: 100%;
+}
+#skills .row.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 #whatsapp{
     position: fixed;
     width: 55px;
